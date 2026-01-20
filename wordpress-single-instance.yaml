@@ -64,6 +64,7 @@ Parameters:
     Description: WebServer EC2 instance type
     Type: String
   KeyName:
+    Default: devops23
     ConstraintDescription: must be the name of an existing EC2 KeyPair.
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
     Type: AWS::EC2::KeyPair::KeyName
